@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dream House Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;}
+    .div2{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .div2,ul,li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 30px;
+        position: relative;
+        margin-left: 80px;
+    }
+    .div2,ul,li,a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    .div3{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+    }
+    .div3 h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+    .div3 p{
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+    }
+    button{
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    span{
+        background: blue;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    button:hover span{
+        width: 100%;
+    }
+    button:hover{
+        border: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <div class="div2">
+        <img src="" class="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="bedroom.html">BEDROOM</a></li>
+            <li><a href="kitchen.html">KITCHEN</a></li>
+            <li><a href="drawingroom.html">DRAWING ROOM</a></li>
+            <li><a href="house.html">HOUSE</a></li>
+        </ul>
+    </div>
+    <div class="div3">
+        <h1>DESIGN YOUR DREAM HOUSE</h1>
+        <p>Design your house is a veru good website.You make your dream house to help this website. </p>
+        <div>
+            <button type="button"><span></span> WATCH MORE</button>
+            <button type="button"><span></span> <a href="">HOUSE</a></button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
